@@ -1,0 +1,108 @@
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*Variables*/
+:root {
+    --white: #fff;
+    --black: #000;
+    --text: 'Roboto', sans-serif;
+    --fontSize: 16px;
+    --gray: #eeeeee;
+    --yellow: yellow;
+}
+/*Basic style**/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: var(--fontSize);
+}
+/*Header*/
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+}
+/*Nav*/
+.navbar-brand {
+    font-size: 30px;
+    color: var(--yellow);
+}
+.nav-item {
+    font-size: 16px;
+}
+.nav-item a:hover {
+    color: var(--yellow);
+}
+.nav-item .active:hover {
+    color: var(--yellow);
+}
+/*Order*/
+#order i {
+    font-size: 30px;
+    color: var(--yellow);
+}
+#order h4 {
+    color: var(--)gray;
+    letter-spacing: 1px;
+}
+#order p {
+    font-size: 19px;
+    color: var(--black);
+    letter-spacing: 1;
+}
+/*Product*/
+#product h1 {
+    font-size: 3rem;
+}
+#product p{
+    font-size: 1.8rem;
+}
+#product .ip {
+    border-radius: 10px;
+}
+/*post-product*/
+#post-product .card-title  {
+    font-size: 1.8rem;
+    color: var(--black)!important;
+}
+#post-product .card-text {
+    font-size: 1.3rem;
+}
+/**Interior Desinge*/
+#interior h2 {
+    font-size: 3.7rem !important;
+}
+#interior p {
+    font-size: 18px !important;
+}
+/***About*/
+#about h1 {
+    font-size: 4rem;
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;   
+}
+#about h4 {
+    font-size: 2.2rem;
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf, #eedd44, var(--yellow));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#about p {
+    font-size: 20px;
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf,var(--black));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#about {
+    background-color: var(--gray);
+}
+
